@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPI Network</title>
+    <style>
+        #cy {
+            width: 100%;
+            height: 100vh;
+            display: block;
+            position: relative;
+            background-color: #F5F5F5;//设置页面的背景色
+        }
+        .tooltip {
+            position: absolute;
+            display: none;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            pointer-events: auto; /* Prevents tooltip from catching mouse events */
+            z-index: 10;
+        }
+        .legend {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            font-size: 12px;
+            z-index: 100;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .legend-item span {
+            margin-left: 10px;
+        }
+        .legend-line {
+            width: 40px;
+            height: 2px;
+            display: inline-block;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+        .switch input {
+            display: none;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.4s;
+            border-radius: 34px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        #layoutLabel {
+            margin-left: 10px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div id="cy"></div>
+<div class="tooltip" id="tooltip"></div>
+<!-- 图例 -->
+<div class="legend">
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #67001f;"></div>
+        <span>Reporter assay</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #ff69b4;"></div>
+        <span>WB</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #ff4500;"></div>
+        <span>qPCR</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #b3d7e8;"></div>
+        <span>Microarray</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #2e8b57;"></div>
+        <span>NGS</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #40e0d0;"></div>
+        <span>pSILAC</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #2166ac;"></div>
+        <span>Other</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #264653;"></div>
+        <span>CLIP-Seq</span>
+    </div>
+    <div class="legend-item">
+        <div class="legend-line" style="background-color: #9966cc;"></div>
+        <span>Published paper</span>
+    </div>
+
+</div>
+
+<!-- 切换按钮  -->
+<div style="position: fixed; top: 20px; left: 20px; z-index: 100;">
+    <label class="switch">
+        <input type="checkbox" id="layoutToggle">
+        <span class="slider"></span>
+    </label>
+    <span id="layoutLabel">Concentric view</span>
+</div>
+
+<script src="cytoscape.min.js"></script>
+<!-- fcose 插件 -->
+<script src="https://unpkg.com/layout-base/layout-base.js"></script>
+<script src="https://unpkg.com/cose-base/cose-base.js"></script>
+<script src="https://unpkg.com/cytoscape-fcose/cytoscape-fcose.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        // Variables to store precomputed layouts
+        let cachedLayoutCircle, cachedLayoutNetwork;
+        // Function to cache layouts
+        function cacheLayouts(cy) {
+            cachedLayoutCircle = cy.layout({
+                name: 'concentric',
+                concentric: node => {
+                    if (node.data('type') === 'gene') {
+                        return 10; // 基因节点固定在中心
+                    } else if (node.degree() === 1) {
+                        // degree=1 的节点随机分到 1~4 的圈层
+                        return Math.random() * 4 + 1;
+                    } else {
+                        return node.degree(); // 其他节点根据度数分层
+                    }
+
+                },
+                concentric: node => (node.data('type') === 'gene' ? 10 : node.degree()),
+                levelWidth:()=>3,
+                spacingFactor: 1.2,
+                animate: true
+                // concentric: node => (node.data('type') === 'gene' ? 10 : node.degree()),
+                // levelWidth:()=>3,
+                // spacingFactor: 1.2,
+                // animate: true
+
+            });
+
+            cachedLayoutNetwork = cy.layout({
+
+                name: 'fcose',
+                nodeRepulsion: node => {
+                    // 基因节点增加排斥力
+                    return node.data('type') === 'gene' ? 30000 : 8000;
+                },
+                idealEdgeLength: edge => {
+                    // 增加基因相关边的长度
+                    if (edge.source().data('type') === 'gene' || edge.target().data('type') === 'gene') {
+                        return 150; // 基因相关边更长
+                    }
+                    return 50; // 其他边保持默认
+                },
+                gravity: 0.05,
+                nodeSeperation:50,
+                fit: true,
+                animate: false
+                // nodeRepulsion: 1000,
+                // idealEdgeLength: 20,
+                // gravity:0.5,
+                // nodeSeperation:20,
+                // fit: true,
+                // animate: true
+            });
+
+            // Precompute the layouts
+            // cachedLayoutNetwork.run();
+            cachedLayoutCircle.run();//default to concentric
+
+        }
+
+        // Function to switch layouts
+        function switchLayout(isCircle) {
+            if (isCircle) {
+                cachedLayoutCircle.run();
+                layoutLabel.textContent = 'Concentric view';
+            } else {
+                cachedLayoutNetwork.run();
+                layoutLabel.textContent = 'Complex network view';
+            }
+        }
+
+        // Load data from local CYJS file
+        fetch('./miRNA_mRNA_network.cyjs')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Initialize Cytoscape
+                var cy = cytoscape({
+                    container: document.getElementById('cy'),
+                    elements: data.elements,
+                    style: [
+                        {
+                            selector: 'node[type="gene"]',
+                            style: {
+                                'background-color': '#daa520',
+                                'shape':'triangle',
+                                'label': 'data(gene_symbol)',
+                                'color': '#333333',
+                                'text-outline-color': '#333333',
+                                'text-valign': 'center',
+                                'text-halign': 'center',
+                                'width': '20px', //节点大小
+                                'height': '20px', //节点大小
+                                'font-size': '12px', //节点标签大小
+                                'font-weight': 'bold',
+                                'background-opacity': 1,
+                                'shadow-blur': 100, /* 阴影效果 */
+                                'shadow-color': '#666',
+                                'shadow-opacity': 0.3,
+
+                            }
+                        },
+                        {
+                            selector: 'node[type="miRNA"]',
+                            style: {
+                                'shape': 'ellipse',  // miRNA节点形状
+                                'background-color': '#48d1cc',
+                                'label': 'data(gene_symbol)',
+                                'width': '20px',
+                                'height': '20px',
+                                'font-size': '8px',
+                                'font-weight': 'bold',
+
+
+                            }
+                        },
+                        {
+                            selector: 'edge',
+                            style: {
+                                'width': 0.6,
+                                'line-color': 'data(edge_color)',
+                                'curve-style': 'bezier',
+                            }
+                        },
+                        {
+                            selector: 'node.highlighted',
+                            style: {
+                                'background-color': '#ffff66',
+                                'border-color': '#ffcc00'
+                            }
+                        },
+                        {
+                            selector: 'edge.highlighted',
+                            style: {
+                                'width': 2,
+                                'opacity': 1
+                            }
+                        },
+                        {
+                            selector: 'node.dimmed',
+                            style: {
+                                'opacity': 0.2 // 非高亮节点变透明
+                            }
+                        },
+                        {
+                            selector: 'edge.dimmed',
+                            style: {
+                                'opacity': 0.2 // 非高亮边变透明
+                            }
+                        }
+                    ],
+                    layout: {
+                        name: 'concentric',
+                        concentric: node => (node.data('type') === 'gene' ? 10 : node.degree()),
+                        levelWidth: () => 1,
+                        spacingFactor: 1.5
+                    },
+                    //以下三行是调整网络的初始大小，让用户能看清网络中心的节点是什么，用户可以用鼠标滚轮来查看网络的其他部分
+                    zoom: 1, //定义缩放水平，打开网页时放大网络
+                    pan: { x: 0, y: 0 }, //以初始平移位置为中心
+                    wheelSensitivity: 0.1 //调整鼠标滚轮缩放的灵敏度，用鼠标滚轮缩放来看网络在屏幕外的部分
+                });
+
+                cacheLayouts(cy);
+                let tooltip = document.getElementById('tooltip');
+                // let tooltipVisible = false; //设置状态变量，目的是点击节点后高亮相关节点跟展示悬浮窗，点击空白区域后关闭悬浮窗，再点空白区域后取消节点高亮
+
+                // Show information when clicking on a node
+                cy.on('tap', 'node', function (evt) {
+
+                    var node = evt.target;
+
+                    // 清除所有高亮和透明状态
+                    cy.elements().removeClass('highlighted dimmed');
+
+                    // 为高亮部分设置样式
+                    node.addClass('highlighted');
+                    node.connectedEdges().addClass('highlighted');
+                    node.connectedEdges().connectedNodes().addClass('highlighted');
+
+                    // 为非高亮部分添加 dimmed 类
+                    cy.elements().not('.highlighted').addClass('dimmed');
+
+                    var node = evt.target;
+                    var type = node.data('type');
+                    var name = node.data('gene_symbol');
+                    var href = node.data('href'); //使用href属性
+                    var position = node.renderedPosition();
+
+                    // Display the tooltip
+                    var tooltip = document.getElementById('tooltip');
+                    tooltip.innerHTML = `
+                          <strong>Name:</strong> ${name}<br>
+                        <strong>Type:</strong> ${type}<br>
+                        <strong>Link:</strong> <a href="${href}" target="_blank">${type==='gene'?'NCBI link':'miRTarBase link'}</a>
+                        `;
+                    tooltip.style.display = 'block';
+                    tooltip.style.left = (position.x + 15) + 'px'; // Adjust tooltip position
+                    tooltip.style.top = (position.y + 15) + 'px';
+
+                    // Highlight node and its adjacent nodes
+                    cy.elements().removeClass('highlighted');
+                    node.addClass('highlighted');
+                    node.connectedEdges().addClass('highlighted');
+                    node.connectedEdges().connectedNodes().addClass('highlighted');
+                    tooltipVisible = true; //点击节点后更新状态变量，使得点击空白区域后相关节点仍保持高亮，只关闭悬浮窗本身
+                });
+
+                // Hide tooltip when clicking on the background
+                cy.on('tap', function (evt) {
+                    if (evt.target === cy) {
+                        // 清除所有高亮和透明状态
+                        cy.elements().removeClass('highlighted dimmed');
+                    }
+                    if (evt.target === cy) {
+                        var tooltip = document.getElementById('tooltip');
+                        //这里写判断，如果悬浮窗亮着，点击一下空白关闭悬浮窗，再点击一下空白关闭相关高亮节点
+                        if (tooltipVisible) {
+                            tooltip.style.display = 'none';
+                            tooltipVisible = false; //更新状态
+                        } else {
+                            cy.elements().removeClass('highlighted');
+                        }
+                    }
+                });
+                // Layout switching logic
+                const layoutToggle = document.getElementById('layoutToggle');
+                const layoutLabel = document.getElementById('layoutLabel');
+                layoutToggle.checked = false; // Ensure toggle starts in "concentric" state
+                layoutLabel.textContent = 'Concentric view';
+
+                // Add event listener for layout toggle
+                layoutToggle.addEventListener('change', function () {
+                    switchLayout(!this.checked);
+                });
+
+                // Initialize the default layout label
+            //     layoutLabel.textContent = layoutToggle.checked ? 'Complex network view' : 'Concentric view';
+            })
+            .catch(error => console.error('Error loading CYJS:', error));
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,3915 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.2",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "miRNA-mRNA Interaction Network",
+    "name" : "miRNA-mRNA Interaction Network",
+    "SUID" : 12533,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "12759",
+        "shared_name" : "APOL6",
+        "gene_symbol" : "APOL6",
+        "name" : "APOL6",
+        "SUID" : 12759,
+        "id_original" : "APOL6",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+APOL6",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12756",
+        "shared_name" : "ADM",
+        "gene_symbol" : "ADM",
+        "name" : "ADM",
+        "SUID" : 12756,
+        "id_original" : "ADM",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+ADM",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12753",
+        "shared_name" : "TYMS",
+        "gene_symbol" : "TYMS",
+        "name" : "TYMS",
+        "SUID" : 12753,
+        "id_original" : "TYMS",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+TYMS",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12750",
+        "shared_name" : "IFI27",
+        "gene_symbol" : "IFI27",
+        "name" : "IFI27",
+        "SUID" : 12750,
+        "id_original" : "IFI27",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+IFI27",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12747",
+        "shared_name" : "LHFPL2",
+        "gene_symbol" : "LHFPL2",
+        "name" : "LHFPL2",
+        "SUID" : 12747,
+        "id_original" : "LHFPL2",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+LHFPL2",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12744",
+        "shared_name" : "CD4",
+        "gene_symbol" : "CD4",
+        "name" : "CD4",
+        "SUID" : 12744,
+        "id_original" : "CD4",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+CD4",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12741",
+        "shared_name" : "CD38",
+        "gene_symbol" : "CD38",
+        "name" : "CD38",
+        "SUID" : 12741,
+        "id_original" : "CD38",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+CD38",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12738",
+        "shared_name" : "CD8A",
+        "gene_symbol" : "CD8A",
+        "name" : "CD8A",
+        "SUID" : 12738,
+        "id_original" : "CD8A",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+CD8A",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12735",
+        "shared_name" : "CCL22",
+        "gene_symbol" : "CCL22",
+        "name" : "CCL22",
+        "SUID" : 12735,
+        "id_original" : "CCL22",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+CCL22",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12732",
+        "shared_name" : "CCR7",
+        "gene_symbol" : "CCR7",
+        "name" : "CCR7",
+        "SUID" : 12732,
+        "id_original" : "CCR7",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+CCR7",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12729",
+        "shared_name" : "TAP1",
+        "gene_symbol" : "TAP1",
+        "name" : "TAP1",
+        "SUID" : 12729,
+        "id_original" : "TAP1",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+TAP1",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12726",
+        "shared_name" : "PTPN22",
+        "gene_symbol" : "PTPN22",
+        "name" : "PTPN22",
+        "SUID" : 12726,
+        "id_original" : "PTPN22",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+PTPN22",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12723",
+        "shared_name" : "NAIP",
+        "gene_symbol" : "NAIP",
+        "name" : "NAIP",
+        "SUID" : 12723,
+        "id_original" : "NAIP",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+NAIP",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12720",
+        "shared_name" : "ICAM1",
+        "gene_symbol" : "ICAM1",
+        "name" : "ICAM1",
+        "SUID" : 12720,
+        "id_original" : "ICAM1",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+ICAM1",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12717",
+        "shared_name" : "ABCA1",
+        "gene_symbol" : "ABCA1",
+        "name" : "ABCA1",
+        "SUID" : 12717,
+        "id_original" : "ABCA1",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+ABCA1",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12714",
+        "shared_name" : "TGFBI",
+        "gene_symbol" : "TGFBI",
+        "name" : "TGFBI",
+        "SUID" : 12714,
+        "id_original" : "TGFBI",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+TGFBI",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12711",
+        "shared_name" : "NABP1",
+        "gene_symbol" : "NABP1",
+        "name" : "NABP1",
+        "SUID" : 12711,
+        "id_original" : "NABP1",
+        "href" : "https://www.ncbi.nlm.nih.gov/gene/?term=Homo+sapiens+NABP1",
+        "type" : "gene",
+        "selected" : false
+      }
+    }, {
+      "data" : {
+        "id" : "12708",
+        "shared_name" : "hsa-miR-29a-3p",
+        "gene_symbol" : "hsa-miR-29a-3p",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-29a-3p",
+        "SUID" : 12708,
+        "source_original" : "hsa-miR-29a-3p",
+        "id_original" : "hsa-miR-29a-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT736710",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12705",
+        "shared_name" : "hsa-miR-665",
+        "gene_symbol" : "hsa-miR-665",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-665",
+        "SUID" : 12705,
+        "source_original" : "hsa-miR-665",
+        "id_original" : "hsa-miR-665",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT736344",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "PTPN22"
+      }
+    }, {
+      "data" : {
+        "id" : "12702",
+        "shared_name" : "hsa-miR-885-5p",
+        "gene_symbol" : "hsa-miR-885-5p",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-885-5p",
+        "SUID" : 12702,
+        "source_original" : "hsa-miR-885-5p",
+        "id_original" : "hsa-miR-885-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT736277",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12699",
+        "shared_name" : "hsa-miR-125b-5p",
+        "gene_symbol" : "hsa-miR-125b-5p",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-125b-5p",
+        "SUID" : 12699,
+        "source_original" : "hsa-miR-125b-5p",
+        "id_original" : "hsa-miR-125b-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT736025",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "12696",
+        "shared_name" : "hsa-miR-200a-5p",
+        "gene_symbol" : "hsa-miR-200a-5p",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-200a-5p",
+        "SUID" : 12696,
+        "source_original" : "hsa-miR-200a-5p",
+        "id_original" : "hsa-miR-200a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT735979",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "12693",
+        "shared_name" : "hsa-miR-574-3p",
+        "gene_symbol" : "hsa-miR-574-3p",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-574-3p",
+        "SUID" : 12693,
+        "source_original" : "hsa-miR-574-3p",
+        "id_original" : "hsa-miR-574-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT734519",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "12690",
+        "shared_name" : "hsa-miR-223-3p",
+        "gene_symbol" : "hsa-miR-223-3p",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-223-3p",
+        "SUID" : 12690,
+        "source_original" : "hsa-miR-223-3p",
+        "id_original" : "hsa-miR-223-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT734212",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12687",
+        "shared_name" : "hsa-miR-210-3p",
+        "gene_symbol" : "hsa-miR-210-3p",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-210-3p",
+        "SUID" : 12687,
+        "source_original" : "hsa-miR-210-3p",
+        "id_original" : "hsa-miR-210-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT733615",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "12684",
+        "shared_name" : "hsa-miR-4328",
+        "gene_symbol" : "hsa-miR-4328",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-4328",
+        "SUID" : 12684,
+        "source_original" : "hsa-miR-4328",
+        "id_original" : "hsa-miR-4328",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT733059",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12681",
+        "shared_name" : "hsa-miR-375",
+        "gene_symbol" : "hsa-miR-375",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-375",
+        "SUID" : 12681,
+        "source_original" : "hsa-miR-375",
+        "id_original" : "hsa-miR-375",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT733042",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "12678",
+        "shared_name" : "hsa-miR-199a-5p",
+        "gene_symbol" : "hsa-miR-199a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-199a-5p",
+        "SUID" : 12678,
+        "source_original" : "hsa-miR-199a-5p",
+        "id_original" : "hsa-miR-199a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT732313",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12675",
+        "shared_name" : "hsa-miR-1-3p",
+        "gene_symbol" : "hsa-miR-1-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-1-3p",
+        "SUID" : 12675,
+        "source_original" : "hsa-miR-1-3p",
+        "id_original" : "hsa-miR-1-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT731787",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12672",
+        "shared_name" : "hsa-miR-145-5p",
+        "gene_symbol" : "hsa-miR-145-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-145-5p",
+        "SUID" : 12672,
+        "source_original" : "hsa-miR-145-5p",
+        "id_original" : "hsa-miR-145-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT731786",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12669",
+        "shared_name" : "hsa-miR-502-5p",
+        "gene_symbol" : "hsa-miR-502-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-502-5p",
+        "SUID" : 12669,
+        "source_original" : "hsa-miR-502-5p",
+        "id_original" : "hsa-miR-502-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT731055",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "12666",
+        "shared_name" : "hsa-miR-643",
+        "gene_symbol" : "hsa-miR-643",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-643",
+        "SUID" : 12666,
+        "source_original" : "hsa-miR-643",
+        "id_original" : "hsa-miR-643",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT662121",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "APOL6"
+      }
+    }, {
+      "data" : {
+        "id" : "12663",
+        "shared_name" : "hsa-miR-126-3p",
+        "gene_symbol" : "hsa-miR-126-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-126-3p",
+        "SUID" : 12663,
+        "source_original" : "hsa-miR-126-3p",
+        "id_original" : "hsa-miR-126-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT438600",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "12660",
+        "shared_name" : "hsa-miR-433-3p",
+        "gene_symbol" : "hsa-miR-433-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-433-3p",
+        "SUID" : 12660,
+        "source_original" : "hsa-miR-433-3p",
+        "id_original" : "hsa-miR-433-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT438242",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12657",
+        "shared_name" : "hsa-miR-324-3p",
+        "gene_symbol" : "hsa-miR-324-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-324-3p",
+        "SUID" : 12657,
+        "source_original" : "hsa-miR-324-3p",
+        "id_original" : "hsa-miR-324-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT438044",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12654",
+        "shared_name" : "hsa-miR-93-5p",
+        "gene_symbol" : "hsa-miR-93-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-93-5p",
+        "SUID" : 12654,
+        "source_original" : "hsa-miR-93-5p",
+        "id_original" : "hsa-miR-93-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT438035",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12651",
+        "shared_name" : "hsa-miR-196a-5p",
+        "gene_symbol" : "hsa-miR-196a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-196a-5p",
+        "SUID" : 12651,
+        "source_original" : "hsa-miR-196a-5p",
+        "id_original" : "hsa-miR-196a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT437980",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12648",
+        "shared_name" : "hsa-miR-613",
+        "gene_symbol" : "hsa-miR-613",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-613",
+        "SUID" : 12648,
+        "source_original" : "hsa-miR-613",
+        "id_original" : "hsa-miR-613",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT437926",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12645",
+        "shared_name" : "hsa-miR-675-5p",
+        "gene_symbol" : "hsa-miR-675-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-675-5p",
+        "SUID" : 12645,
+        "source_original" : "hsa-miR-675-5p",
+        "id_original" : "hsa-miR-675-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT437499",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "12642",
+        "shared_name" : "hsa-miR-203a-3p",
+        "gene_symbol" : "hsa-miR-203a-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-203a-3p",
+        "SUID" : 12642,
+        "source_original" : "hsa-miR-203a-3p",
+        "id_original" : "hsa-miR-203a-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT199238",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12639",
+        "shared_name" : "hsa-miR-146a-5p",
+        "gene_symbol" : "hsa-miR-146a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-146a-5p",
+        "SUID" : 12639,
+        "source_original" : "hsa-miR-146a-5p",
+        "id_original" : "hsa-miR-146a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT054757",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12636",
+        "shared_name" : "hsa-miR-296-3p",
+        "gene_symbol" : "hsa-miR-296-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-296-3p",
+        "SUID" : 12636,
+        "source_original" : "hsa-miR-296-3p",
+        "id_original" : "hsa-miR-296-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT054646",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12633",
+        "shared_name" : "hsa-miR-27b-3p",
+        "gene_symbol" : "hsa-miR-27b-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-27b-3p",
+        "SUID" : 12633,
+        "source_original" : "hsa-miR-27b-3p",
+        "id_original" : "hsa-miR-27b-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT054624",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12630",
+        "shared_name" : "hsa-miR-128-3p",
+        "gene_symbol" : "hsa-miR-128-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-128-3p",
+        "SUID" : 12630,
+        "source_original" : "hsa-miR-128-3p",
+        "id_original" : "hsa-miR-128-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT054227",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12627",
+        "shared_name" : "hsa-miR-942-5p",
+        "gene_symbol" : "hsa-miR-942-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-942-5p",
+        "SUID" : 12627,
+        "source_original" : "hsa-miR-942-5p",
+        "id_original" : "hsa-miR-942-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT054031",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "12624",
+        "shared_name" : "hsa-miR-140-3p",
+        "gene_symbol" : "hsa-miR-140-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-140-3p",
+        "SUID" : 12624,
+        "source_original" : "hsa-miR-140-3p",
+        "id_original" : "hsa-miR-140-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT053006",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12621",
+        "shared_name" : "hsa-miR-196b-5p",
+        "gene_symbol" : "hsa-miR-196b-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-196b-5p",
+        "SUID" : 12621,
+        "source_original" : "hsa-miR-196b-5p",
+        "id_original" : "hsa-miR-196b-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT007284",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CD8A"
+      }
+    }, {
+      "data" : {
+        "id" : "12618",
+        "shared_name" : "hsa-miR-27a-3p",
+        "gene_symbol" : "hsa-miR-27a-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-27a-3p",
+        "SUID" : 12618,
+        "source_original" : "hsa-miR-27a-3p",
+        "id_original" : "hsa-miR-27a-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT007123",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12615",
+        "shared_name" : "hsa-miR-19a-3p",
+        "gene_symbol" : "hsa-miR-19a-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-19a-3p",
+        "SUID" : 12615,
+        "source_original" : "hsa-miR-19a-3p",
+        "id_original" : "hsa-miR-19a-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT007121",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12612",
+        "shared_name" : "hsa-miR-9-5p",
+        "gene_symbol" : "hsa-miR-9-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-9-5p",
+        "SUID" : 12612,
+        "source_original" : "hsa-miR-9-5p",
+        "id_original" : "hsa-miR-9-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT053363",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "LHFPL2"
+      }
+    }, {
+      "data" : {
+        "id" : "12609",
+        "shared_name" : "hsa-miR-34a-5p",
+        "gene_symbol" : "hsa-miR-34a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-34a-5p",
+        "SUID" : 12609,
+        "source_original" : "hsa-miR-34a-5p",
+        "id_original" : "hsa-miR-34a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT006869",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CCL22"
+      }
+    }, {
+      "data" : {
+        "id" : "12606",
+        "shared_name" : "hsa-let-7a-5p",
+        "gene_symbol" : "hsa-let-7a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-let-7a-5p",
+        "SUID" : 12606,
+        "source_original" : "hsa-let-7a-5p",
+        "id_original" : "hsa-let-7a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT006813",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12603",
+        "shared_name" : "hsa-miR-26b-5p",
+        "gene_symbol" : "hsa-miR-26b-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-26b-5p",
+        "SUID" : 12603,
+        "source_original" : "hsa-miR-26b-5p",
+        "id_original" : "hsa-miR-26b-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT736433",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12600",
+        "shared_name" : "hsa-miR-26a-5p",
+        "gene_symbol" : "hsa-miR-26a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-26a-5p",
+        "SUID" : 12600,
+        "source_original" : "hsa-miR-26a-5p",
+        "id_original" : "hsa-miR-26a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT734721",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12597",
+        "shared_name" : "hsa-miR-346",
+        "gene_symbol" : "hsa-miR-346",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-346",
+        "SUID" : 12597,
+        "source_original" : "hsa-miR-346",
+        "id_original" : "hsa-miR-346",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT006669",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "12594",
+        "shared_name" : "hsa-miR-181a-5p",
+        "gene_symbol" : "hsa-miR-181a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-181a-5p",
+        "SUID" : 12594,
+        "source_original" : "hsa-miR-181a-5p",
+        "id_original" : "hsa-miR-181a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT053201",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "12591",
+        "shared_name" : "hsa-miR-1256",
+        "gene_symbol" : "hsa-miR-1256",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-1256",
+        "SUID" : 12591,
+        "source_original" : "hsa-miR-1256",
+        "id_original" : "hsa-miR-1256",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT005710",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12588",
+        "shared_name" : "hsa-miR-155-5p",
+        "gene_symbol" : "hsa-miR-155-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-155-5p",
+        "SUID" : 12588,
+        "source_original" : "hsa-miR-155-5p",
+        "id_original" : "hsa-miR-155-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT736029",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12585",
+        "shared_name" : "hsa-miR-31-5p",
+        "gene_symbol" : "hsa-miR-31-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-31-5p",
+        "SUID" : 12585,
+        "source_original" : "hsa-miR-31-5p",
+        "id_original" : "hsa-miR-31-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT005707",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12582",
+        "shared_name" : "hsa-miR-222-3p",
+        "gene_symbol" : "hsa-miR-222-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-222-3p",
+        "SUID" : 12582,
+        "source_original" : "hsa-miR-222-3p",
+        "id_original" : "hsa-miR-222-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT004595",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12579",
+        "shared_name" : "hsa-miR-221-3p",
+        "gene_symbol" : "hsa-miR-221-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-221-3p",
+        "SUID" : 12579,
+        "source_original" : "hsa-miR-221-3p",
+        "id_original" : "hsa-miR-221-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT005295",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12576",
+        "shared_name" : "hsa-miR-17-3p",
+        "gene_symbol" : "hsa-miR-17-3p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-17-3p",
+        "SUID" : 12576,
+        "source_original" : "hsa-miR-17-3p",
+        "id_original" : "hsa-miR-17-3p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT004020",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12573",
+        "shared_name" : "hsa-miR-33a-5p",
+        "gene_symbol" : "hsa-miR-33a-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-33a-5p",
+        "SUID" : 12573,
+        "source_original" : "hsa-miR-33a-5p",
+        "id_original" : "hsa-miR-33a-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT003672",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12570",
+        "shared_name" : "hsa-miR-33b-5p",
+        "gene_symbol" : "hsa-miR-33b-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-33b-5p",
+        "SUID" : 12570,
+        "source_original" : "hsa-miR-33b-5p",
+        "id_original" : "hsa-miR-33b-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT003670",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12567",
+        "shared_name" : "hsa-miR-21-5p",
+        "gene_symbol" : "hsa-miR-21-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-21-5p",
+        "SUID" : 12567,
+        "source_original" : "hsa-miR-21-5p",
+        "id_original" : "hsa-miR-21-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT440980",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12561",
+        "shared_name" : "hsa-miR-17-5p",
+        "gene_symbol" : "hsa-miR-17-5p",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-17-5p",
+        "SUID" : 12561,
+        "source_original" : "hsa-miR-17-5p",
+        "id_original" : "hsa-miR-17-5p",
+        "href" : "https://awi.cuhk.edu.cn/~miRTarBase/miRTarBase_2025/php/detail.php?mirtid=MIRT005708",
+        "type" : "miRNA",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "13119",
+        "source" : "12708",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-29a-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-29a-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13119,
+        "SUID" : 13119,
+        "source_original" : "hsa-miR-29a-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12996",
+        "source" : "12708",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-29a-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-29a-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12996,
+        "SUID" : 12996,
+        "source_original" : "hsa-miR-29a-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12897",
+        "source" : "12708",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-29a-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-29a-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12897,
+        "SUID" : 12897,
+        "source_original" : "hsa-miR-29a-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13146",
+        "source" : "12705",
+        "target" : "12726",
+        "shared_name" : "hsa-miR-665 (interacts with) PTPN22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-665 (interacts with) PTPN22",
+        "interaction" : "interacts with",
+        "data_key_column" : 13146,
+        "SUID" : 13146,
+        "source_original" : "hsa-miR-665",
+        "selected" : false,
+        "target_original" : "PTPN22"
+      }
+    }, {
+      "data" : {
+        "id" : "13113",
+        "source" : "12705",
+        "target" : "12726",
+        "shared_name" : "hsa-miR-665 (interacts with) PTPN22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-665 (interacts with) PTPN22",
+        "interaction" : "interacts with",
+        "data_key_column" : 13113,
+        "SUID" : 13113,
+        "source_original" : "hsa-miR-665",
+        "selected" : false,
+        "target_original" : "PTPN22"
+      }
+    }, {
+      "data" : {
+        "id" : "13110",
+        "source" : "12702",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-885-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-885-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13110,
+        "SUID" : 13110,
+        "source_original" : "hsa-miR-885-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12990",
+        "source" : "12702",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-885-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-885-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12990,
+        "SUID" : 12990,
+        "source_original" : "hsa-miR-885-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13140",
+        "source" : "12699",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-125b-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-125b-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13140,
+        "SUID" : 13140,
+        "source_original" : "hsa-miR-125b-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "13104",
+        "source" : "12699",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-125b-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-125b-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13104,
+        "SUID" : 13104,
+        "source_original" : "hsa-miR-125b-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "13101",
+        "source" : "12696",
+        "target" : "12729",
+        "shared_name" : "hsa-miR-200a-5p (interacts with) TAP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-200a-5p (interacts with) TAP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13101,
+        "SUID" : 13101,
+        "source_original" : "hsa-miR-200a-5p",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "12987",
+        "source" : "12696",
+        "target" : "12729",
+        "shared_name" : "hsa-miR-200a-5p (interacts with) TAP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-200a-5p (interacts with) TAP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12987,
+        "SUID" : 12987,
+        "source_original" : "hsa-miR-200a-5p",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "12891",
+        "source" : "12696",
+        "target" : "12729",
+        "shared_name" : "hsa-miR-200a-5p (interacts with) TAP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-200a-5p (interacts with) TAP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12891,
+        "SUID" : 12891,
+        "source_original" : "hsa-miR-200a-5p",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "13095",
+        "source" : "12693",
+        "target" : "12756",
+        "shared_name" : "hsa-miR-574-3p (interacts with) ADM",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-574-3p (interacts with) ADM",
+        "interaction" : "interacts with",
+        "data_key_column" : 13095,
+        "SUID" : 13095,
+        "source_original" : "hsa-miR-574-3p",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "12885",
+        "source" : "12693",
+        "target" : "12756",
+        "shared_name" : "hsa-miR-574-3p (interacts with) ADM",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-574-3p (interacts with) ADM",
+        "interaction" : "interacts with",
+        "data_key_column" : 12885,
+        "SUID" : 12885,
+        "source_original" : "hsa-miR-574-3p",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "13092",
+        "source" : "12690",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-223-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-223-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13092,
+        "SUID" : 13092,
+        "source_original" : "hsa-miR-223-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12981",
+        "source" : "12690",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-223-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-223-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12981,
+        "SUID" : 12981,
+        "source_original" : "hsa-miR-223-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12882",
+        "source" : "12690",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-223-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-223-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12882,
+        "SUID" : 12882,
+        "source_original" : "hsa-miR-223-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13089",
+        "source" : "12687",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-210-3p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-210-3p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 13089,
+        "SUID" : 13089,
+        "source_original" : "hsa-miR-210-3p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "12978",
+        "source" : "12687",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-210-3p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-210-3p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 12978,
+        "SUID" : 12978,
+        "source_original" : "hsa-miR-210-3p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13086",
+        "source" : "12684",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-4328 (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-4328 (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13086,
+        "SUID" : 13086,
+        "source_original" : "hsa-miR-4328",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12975",
+        "source" : "12684",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-4328 (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-4328 (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12975,
+        "SUID" : 12975,
+        "source_original" : "hsa-miR-4328",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12879",
+        "source" : "12684",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-4328 (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-4328 (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12879,
+        "SUID" : 12879,
+        "source_original" : "hsa-miR-4328",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13083",
+        "source" : "12681",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-375 (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-375 (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13083,
+        "SUID" : 13083,
+        "source_original" : "hsa-miR-375",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "12972",
+        "source" : "12681",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-375 (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-375 (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 12972,
+        "SUID" : 12972,
+        "source_original" : "hsa-miR-375",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "13320",
+        "source" : "12678",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-199a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-199a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13320,
+        "SUID" : 13320,
+        "source_original" : "hsa-miR-199a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13080",
+        "source" : "12678",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-199a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-199a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13080,
+        "SUID" : 13080,
+        "source_original" : "hsa-miR-199a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12876",
+        "source" : "12678",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-199a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-199a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 12876,
+        "SUID" : 12876,
+        "source_original" : "hsa-miR-199a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13317",
+        "source" : "12675",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13317,
+        "SUID" : 13317,
+        "source_original" : "hsa-miR-1-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13077",
+        "source" : "12675",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13077,
+        "SUID" : 13077,
+        "source_original" : "hsa-miR-1-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12969",
+        "source" : "12675",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12969,
+        "SUID" : 12969,
+        "source_original" : "hsa-miR-1-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12873",
+        "source" : "12675",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-1-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12873,
+        "SUID" : 12873,
+        "source_original" : "hsa-miR-1-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13314",
+        "source" : "12672",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13314,
+        "SUID" : 13314,
+        "source_original" : "hsa-miR-145-5p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13074",
+        "source" : "12672",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13074,
+        "SUID" : 13074,
+        "source_original" : "hsa-miR-145-5p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12966",
+        "source" : "12672",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12966,
+        "SUID" : 12966,
+        "source_original" : "hsa-miR-145-5p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12870",
+        "source" : "12672",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-145-5p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12870,
+        "SUID" : 12870,
+        "source_original" : "hsa-miR-145-5p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13311",
+        "source" : "12669",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 13311,
+        "SUID" : 13311,
+        "source_original" : "hsa-miR-502-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "13071",
+        "source" : "12669",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 13071,
+        "SUID" : 13071,
+        "source_original" : "hsa-miR-502-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "12963",
+        "source" : "12669",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 12963,
+        "SUID" : 12963,
+        "source_original" : "hsa-miR-502-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "12867",
+        "source" : "12669",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-502-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 12867,
+        "SUID" : 12867,
+        "source_original" : "hsa-miR-502-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "13308",
+        "source" : "12666",
+        "target" : "12759",
+        "shared_name" : "hsa-miR-643 (interacts with) APOL6",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-643 (interacts with) APOL6",
+        "interaction" : "interacts with",
+        "data_key_column" : 13308,
+        "SUID" : 13308,
+        "source_original" : "hsa-miR-643",
+        "selected" : false,
+        "target_original" : "APOL6"
+      }
+    }, {
+      "data" : {
+        "id" : "13185",
+        "source" : "12666",
+        "target" : "12759",
+        "shared_name" : "hsa-miR-643 (interacts with) APOL6",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2e8b57",
+        "name" : "hsa-miR-643 (interacts with) APOL6",
+        "interaction" : "interacts with",
+        "data_key_column" : 13185,
+        "SUID" : 13185,
+        "source_original" : "hsa-miR-643",
+        "selected" : false,
+        "target_original" : "APOL6"
+      }
+    }, {
+      "data" : {
+        "id" : "13158",
+        "source" : "12666",
+        "target" : "12759",
+        "shared_name" : "hsa-miR-643 (interacts with) APOL6",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-643 (interacts with) APOL6",
+        "interaction" : "interacts with",
+        "data_key_column" : 13158,
+        "SUID" : 13158,
+        "source_original" : "hsa-miR-643",
+        "selected" : false,
+        "target_original" : "APOL6"
+      }
+    }, {
+      "data" : {
+        "id" : "12960",
+        "source" : "12666",
+        "target" : "12759",
+        "shared_name" : "hsa-miR-643 (interacts with) APOL6",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#264653",
+        "name" : "hsa-miR-643 (interacts with) APOL6",
+        "interaction" : "interacts with",
+        "data_key_column" : 12960,
+        "SUID" : 12960,
+        "source_original" : "hsa-miR-643",
+        "selected" : false,
+        "target_original" : "APOL6"
+      }
+    }, {
+      "data" : {
+        "id" : "12864",
+        "source" : "12666",
+        "target" : "12759",
+        "shared_name" : "hsa-miR-643 (interacts with) APOL6",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-643 (interacts with) APOL6",
+        "interaction" : "interacts with",
+        "data_key_column" : 12864,
+        "SUID" : 12864,
+        "source_original" : "hsa-miR-643",
+        "selected" : false,
+        "target_original" : "APOL6"
+      }
+    }, {
+      "data" : {
+        "id" : "13302",
+        "source" : "12663",
+        "target" : "12756",
+        "shared_name" : "hsa-miR-126-3p (interacts with) ADM",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-126-3p (interacts with) ADM",
+        "interaction" : "interacts with",
+        "data_key_column" : 13302,
+        "SUID" : 13302,
+        "source_original" : "hsa-miR-126-3p",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "13137",
+        "source" : "12663",
+        "target" : "12756",
+        "shared_name" : "hsa-miR-126-3p (interacts with) ADM",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-126-3p (interacts with) ADM",
+        "interaction" : "interacts with",
+        "data_key_column" : 13137,
+        "SUID" : 13137,
+        "source_original" : "hsa-miR-126-3p",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "13065",
+        "source" : "12663",
+        "target" : "12756",
+        "shared_name" : "hsa-miR-126-3p (interacts with) ADM",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-126-3p (interacts with) ADM",
+        "interaction" : "interacts with",
+        "data_key_column" : 13065,
+        "SUID" : 13065,
+        "source_original" : "hsa-miR-126-3p",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "12858",
+        "source" : "12663",
+        "target" : "12756",
+        "shared_name" : "hsa-miR-126-3p (interacts with) ADM",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-126-3p (interacts with) ADM",
+        "interaction" : "interacts with",
+        "data_key_column" : 12858,
+        "SUID" : 12858,
+        "source_original" : "hsa-miR-126-3p",
+        "selected" : false,
+        "target_original" : "ADM"
+      }
+    }, {
+      "data" : {
+        "id" : "13299",
+        "source" : "12660",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 13299,
+        "SUID" : 13299,
+        "source_original" : "hsa-miR-433-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "13062",
+        "source" : "12660",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 13062,
+        "SUID" : 13062,
+        "source_original" : "hsa-miR-433-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12954",
+        "source" : "12660",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 12954,
+        "SUID" : 12954,
+        "source_original" : "hsa-miR-433-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12855",
+        "source" : "12660",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-433-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 12855,
+        "SUID" : 12855,
+        "source_original" : "hsa-miR-433-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "13296",
+        "source" : "12657",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-324-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-324-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13296,
+        "SUID" : 13296,
+        "source_original" : "hsa-miR-324-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13059",
+        "source" : "12657",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-324-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-324-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13059,
+        "SUID" : 13059,
+        "source_original" : "hsa-miR-324-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13293",
+        "source" : "12654",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-93-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-93-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13293,
+        "SUID" : 13293,
+        "source_original" : "hsa-miR-93-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13056",
+        "source" : "12654",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-93-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-93-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13056,
+        "SUID" : 13056,
+        "source_original" : "hsa-miR-93-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13290",
+        "source" : "12651",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-196a-5p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-196a-5p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 13290,
+        "SUID" : 13290,
+        "source_original" : "hsa-miR-196a-5p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12852",
+        "source" : "12651",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-196a-5p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-196a-5p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 12852,
+        "SUID" : 12852,
+        "source_original" : "hsa-miR-196a-5p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "13287",
+        "source" : "12648",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-613 (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-613 (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13287,
+        "SUID" : 13287,
+        "source_original" : "hsa-miR-613",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13053",
+        "source" : "12648",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-613 (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-613 (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13053,
+        "SUID" : 13053,
+        "source_original" : "hsa-miR-613",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12951",
+        "source" : "12648",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-613 (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-613 (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12951,
+        "SUID" : 12951,
+        "source_original" : "hsa-miR-613",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12849",
+        "source" : "12648",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-613 (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-613 (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12849,
+        "SUID" : 12849,
+        "source_original" : "hsa-miR-613",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13284",
+        "source" : "12645",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 13284,
+        "SUID" : 13284,
+        "source_original" : "hsa-miR-675-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13050",
+        "source" : "12645",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 13050,
+        "SUID" : 13050,
+        "source_original" : "hsa-miR-675-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "12948",
+        "source" : "12645",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 12948,
+        "SUID" : 12948,
+        "source_original" : "hsa-miR-675-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "12846",
+        "source" : "12645",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-675-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 12846,
+        "SUID" : 12846,
+        "source_original" : "hsa-miR-675-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13281",
+        "source" : "12642",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 13281,
+        "SUID" : 13281,
+        "source_original" : "hsa-miR-203a-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "13047",
+        "source" : "12642",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 13047,
+        "SUID" : 13047,
+        "source_original" : "hsa-miR-203a-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12945",
+        "source" : "12642",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 12945,
+        "SUID" : 12945,
+        "source_original" : "hsa-miR-203a-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "12843",
+        "source" : "12642",
+        "target" : "12753",
+        "shared_name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-203a-3p (interacts with) TYMS",
+        "interaction" : "interacts with",
+        "data_key_column" : 12843,
+        "SUID" : 12843,
+        "source_original" : "hsa-miR-203a-3p",
+        "selected" : false,
+        "target_original" : "TYMS"
+      }
+    }, {
+      "data" : {
+        "id" : "13278",
+        "source" : "12639",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-146a-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-146a-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13278,
+        "SUID" : 13278,
+        "source_original" : "hsa-miR-146a-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13044",
+        "source" : "12639",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-146a-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-146a-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13044,
+        "SUID" : 13044,
+        "source_original" : "hsa-miR-146a-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12942",
+        "source" : "12639",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-146a-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-146a-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12942,
+        "SUID" : 12942,
+        "source_original" : "hsa-miR-146a-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13275",
+        "source" : "12636",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13275,
+        "SUID" : 13275,
+        "source_original" : "hsa-miR-296-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13041",
+        "source" : "12636",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13041,
+        "SUID" : 13041,
+        "source_original" : "hsa-miR-296-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12939",
+        "source" : "12636",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12939,
+        "SUID" : 12939,
+        "source_original" : "hsa-miR-296-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12840",
+        "source" : "12636",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-296-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12840,
+        "SUID" : 12840,
+        "source_original" : "hsa-miR-296-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13272",
+        "source" : "12633",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13272,
+        "SUID" : 13272,
+        "source_original" : "hsa-miR-27b-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13038",
+        "source" : "12633",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13038,
+        "SUID" : 13038,
+        "source_original" : "hsa-miR-27b-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12936",
+        "source" : "12633",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12936,
+        "SUID" : 12936,
+        "source_original" : "hsa-miR-27b-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12837",
+        "source" : "12633",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-27b-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12837,
+        "SUID" : 12837,
+        "source_original" : "hsa-miR-27b-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13269",
+        "source" : "12630",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13269,
+        "SUID" : 13269,
+        "source_original" : "hsa-miR-128-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13134",
+        "source" : "12630",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13134,
+        "SUID" : 13134,
+        "source_original" : "hsa-miR-128-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13035",
+        "source" : "12630",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13035,
+        "SUID" : 13035,
+        "source_original" : "hsa-miR-128-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12933",
+        "source" : "12630",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12933,
+        "SUID" : 12933,
+        "source_original" : "hsa-miR-128-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12834",
+        "source" : "12630",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-128-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12834,
+        "SUID" : 12834,
+        "source_original" : "hsa-miR-128-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13266",
+        "source" : "12627",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 13266,
+        "SUID" : 13266,
+        "source_original" : "hsa-miR-942-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "13032",
+        "source" : "12627",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 13032,
+        "SUID" : 13032,
+        "source_original" : "hsa-miR-942-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "12930",
+        "source" : "12627",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 12930,
+        "SUID" : 12930,
+        "source_original" : "hsa-miR-942-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "12831",
+        "source" : "12627",
+        "target" : "12750",
+        "shared_name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-942-5p (interacts with) IFI27",
+        "interaction" : "interacts with",
+        "data_key_column" : 12831,
+        "SUID" : 12831,
+        "source_original" : "hsa-miR-942-5p",
+        "selected" : false,
+        "target_original" : "IFI27"
+      }
+    }, {
+      "data" : {
+        "id" : "13257",
+        "source" : "12624",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-140-3p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-140-3p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 13257,
+        "SUID" : 13257,
+        "source_original" : "hsa-miR-140-3p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "13023",
+        "source" : "12624",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-140-3p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-140-3p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 13023,
+        "SUID" : 13023,
+        "source_original" : "hsa-miR-140-3p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12924",
+        "source" : "12624",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-140-3p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-140-3p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 12924,
+        "SUID" : 12924,
+        "source_original" : "hsa-miR-140-3p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12828",
+        "source" : "12624",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-140-3p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-140-3p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 12828,
+        "SUID" : 12828,
+        "source_original" : "hsa-miR-140-3p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "13254",
+        "source" : "12621",
+        "target" : "12738",
+        "shared_name" : "hsa-miR-196b-5p (interacts with) CD8A",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-196b-5p (interacts with) CD8A",
+        "interaction" : "interacts with",
+        "data_key_column" : 13254,
+        "SUID" : 13254,
+        "source_original" : "hsa-miR-196b-5p",
+        "selected" : false,
+        "target_original" : "CD8A"
+      }
+    }, {
+      "data" : {
+        "id" : "12825",
+        "source" : "12621",
+        "target" : "12738",
+        "shared_name" : "hsa-miR-196b-5p (interacts with) CD8A",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-196b-5p (interacts with) CD8A",
+        "interaction" : "interacts with",
+        "data_key_column" : 12825,
+        "SUID" : 12825,
+        "source_original" : "hsa-miR-196b-5p",
+        "selected" : false,
+        "target_original" : "CD8A"
+      }
+    }, {
+      "data" : {
+        "id" : "13251",
+        "source" : "12618",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13251,
+        "SUID" : 13251,
+        "source_original" : "hsa-miR-27a-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13020",
+        "source" : "12618",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13020,
+        "SUID" : 13020,
+        "source_original" : "hsa-miR-27a-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12921",
+        "source" : "12618",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12921,
+        "SUID" : 12921,
+        "source_original" : "hsa-miR-27a-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12822",
+        "source" : "12618",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-27a-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12822,
+        "SUID" : 12822,
+        "source_original" : "hsa-miR-27a-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13248",
+        "source" : "12615",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-19a-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-19a-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13248,
+        "SUID" : 13248,
+        "source_original" : "hsa-miR-19a-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12819",
+        "source" : "12615",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-19a-3p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-19a-3p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12819,
+        "SUID" : 12819,
+        "source_original" : "hsa-miR-19a-3p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13263",
+        "source" : "12612",
+        "target" : "12747",
+        "shared_name" : "hsa-miR-9-5p (interacts with) LHFPL2",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-9-5p (interacts with) LHFPL2",
+        "interaction" : "interacts with",
+        "data_key_column" : 13263,
+        "SUID" : 13263,
+        "source_original" : "hsa-miR-9-5p",
+        "selected" : false,
+        "target_original" : "LHFPL2"
+      }
+    }, {
+      "data" : {
+        "id" : "13245",
+        "source" : "12612",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-9-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-9-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 13245,
+        "SUID" : 13245,
+        "source_original" : "hsa-miR-9-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13131",
+        "source" : "12612",
+        "target" : "12747",
+        "shared_name" : "hsa-miR-9-5p (interacts with) LHFPL2",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-9-5p (interacts with) LHFPL2",
+        "interaction" : "interacts with",
+        "data_key_column" : 13131,
+        "SUID" : 13131,
+        "source_original" : "hsa-miR-9-5p",
+        "selected" : false,
+        "target_original" : "LHFPL2"
+      }
+    }, {
+      "data" : {
+        "id" : "13029",
+        "source" : "12612",
+        "target" : "12747",
+        "shared_name" : "hsa-miR-9-5p (interacts with) LHFPL2",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-9-5p (interacts with) LHFPL2",
+        "interaction" : "interacts with",
+        "data_key_column" : 13029,
+        "SUID" : 13029,
+        "source_original" : "hsa-miR-9-5p",
+        "selected" : false,
+        "target_original" : "LHFPL2"
+      }
+    }, {
+      "data" : {
+        "id" : "12816",
+        "source" : "12612",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-9-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-9-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 12816,
+        "SUID" : 12816,
+        "source_original" : "hsa-miR-9-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13242",
+        "source" : "12609",
+        "target" : "12735",
+        "shared_name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "interaction" : "interacts with",
+        "data_key_column" : 13242,
+        "SUID" : 13242,
+        "source_original" : "hsa-miR-34a-5p",
+        "selected" : false,
+        "target_original" : "CCL22"
+      }
+    }, {
+      "data" : {
+        "id" : "13182",
+        "source" : "12609",
+        "target" : "12735",
+        "shared_name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#264653",
+        "name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "interaction" : "interacts with",
+        "data_key_column" : 13182,
+        "SUID" : 13182,
+        "source_original" : "hsa-miR-34a-5p",
+        "selected" : false,
+        "target_original" : "CCL22"
+      }
+    }, {
+      "data" : {
+        "id" : "13152",
+        "source" : "12609",
+        "target" : "12735",
+        "shared_name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2e8b57",
+        "name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "interaction" : "interacts with",
+        "data_key_column" : 13152,
+        "SUID" : 13152,
+        "source_original" : "hsa-miR-34a-5p",
+        "selected" : false,
+        "target_original" : "CCL22"
+      }
+    }, {
+      "data" : {
+        "id" : "12813",
+        "source" : "12609",
+        "target" : "12735",
+        "shared_name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-34a-5p (interacts with) CCL22",
+        "interaction" : "interacts with",
+        "data_key_column" : 12813,
+        "SUID" : 12813,
+        "source_original" : "hsa-miR-34a-5p",
+        "selected" : false,
+        "target_original" : "CCL22"
+      }
+    }, {
+      "data" : {
+        "id" : "13239",
+        "source" : "12606",
+        "target" : "12732",
+        "shared_name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13239,
+        "SUID" : 13239,
+        "source_original" : "hsa-let-7a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13017",
+        "source" : "12606",
+        "target" : "12732",
+        "shared_name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13017,
+        "SUID" : 13017,
+        "source_original" : "hsa-let-7a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12918",
+        "source" : "12606",
+        "target" : "12732",
+        "shared_name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 12918,
+        "SUID" : 12918,
+        "source_original" : "hsa-let-7a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12810",
+        "source" : "12606",
+        "target" : "12732",
+        "shared_name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-let-7a-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 12810,
+        "SUID" : 12810,
+        "source_original" : "hsa-let-7a-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13236",
+        "source" : "12603",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13236,
+        "SUID" : 13236,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13128",
+        "source" : "12603",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13128,
+        "SUID" : 13128,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13116",
+        "source" : "12603",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-26b-5p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 13116,
+        "SUID" : 13116,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "13014",
+        "source" : "12603",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13014,
+        "SUID" : 13014,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12993",
+        "source" : "12603",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-26b-5p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 12993,
+        "SUID" : 12993,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12894",
+        "source" : "12603",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-26b-5p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 12894,
+        "SUID" : 12894,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12807",
+        "source" : "12603",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-26b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12807,
+        "SUID" : 12807,
+        "source_original" : "hsa-miR-26b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13233",
+        "source" : "12600",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26a-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-26a-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13233,
+        "SUID" : 13233,
+        "source_original" : "hsa-miR-26a-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13098",
+        "source" : "12600",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-26a-5p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-26a-5p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 13098,
+        "SUID" : 13098,
+        "source_original" : "hsa-miR-26a-5p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "13011",
+        "source" : "12600",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26a-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-26a-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13011,
+        "SUID" : 13011,
+        "source_original" : "hsa-miR-26a-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12984",
+        "source" : "12600",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-26a-5p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-26a-5p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 12984,
+        "SUID" : 12984,
+        "source_original" : "hsa-miR-26a-5p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12888",
+        "source" : "12600",
+        "target" : "12741",
+        "shared_name" : "hsa-miR-26a-5p (interacts with) CD38",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-26a-5p (interacts with) CD38",
+        "interaction" : "interacts with",
+        "data_key_column" : 12888,
+        "SUID" : 12888,
+        "source_original" : "hsa-miR-26a-5p",
+        "selected" : false,
+        "target_original" : "CD38"
+      }
+    }, {
+      "data" : {
+        "id" : "12804",
+        "source" : "12600",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-26a-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-26a-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12804,
+        "SUID" : 12804,
+        "source_original" : "hsa-miR-26a-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13230",
+        "source" : "12597",
+        "target" : "12729",
+        "shared_name" : "hsa-miR-346 (interacts with) TAP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-346 (interacts with) TAP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13230,
+        "SUID" : 13230,
+        "source_original" : "hsa-miR-346",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "13008",
+        "source" : "12597",
+        "target" : "12729",
+        "shared_name" : "hsa-miR-346 (interacts with) TAP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-346 (interacts with) TAP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13008,
+        "SUID" : 13008,
+        "source_original" : "hsa-miR-346",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "12915",
+        "source" : "12597",
+        "target" : "12729",
+        "shared_name" : "hsa-miR-346 (interacts with) TAP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-346 (interacts with) TAP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12915,
+        "SUID" : 12915,
+        "source_original" : "hsa-miR-346",
+        "selected" : false,
+        "target_original" : "TAP1"
+      }
+    }, {
+      "data" : {
+        "id" : "13260",
+        "source" : "12594",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-181a-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-181a-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13260,
+        "SUID" : 13260,
+        "source_original" : "hsa-miR-181a-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "13227",
+        "source" : "12594",
+        "target" : "12726",
+        "shared_name" : "hsa-miR-181a-5p (interacts with) PTPN22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-181a-5p (interacts with) PTPN22",
+        "interaction" : "interacts with",
+        "data_key_column" : 13227,
+        "SUID" : 13227,
+        "source_original" : "hsa-miR-181a-5p",
+        "selected" : false,
+        "target_original" : "PTPN22"
+      }
+    }, {
+      "data" : {
+        "id" : "13026",
+        "source" : "12594",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-181a-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-181a-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13026,
+        "SUID" : 13026,
+        "source_original" : "hsa-miR-181a-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "12927",
+        "source" : "12594",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-181a-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-181a-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 12927,
+        "SUID" : 12927,
+        "source_original" : "hsa-miR-181a-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "12912",
+        "source" : "12594",
+        "target" : "12726",
+        "shared_name" : "hsa-miR-181a-5p (interacts with) PTPN22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-181a-5p (interacts with) PTPN22",
+        "interaction" : "interacts with",
+        "data_key_column" : 12912,
+        "SUID" : 12912,
+        "source_original" : "hsa-miR-181a-5p",
+        "selected" : false,
+        "target_original" : "PTPN22"
+      }
+    }, {
+      "data" : {
+        "id" : "12801",
+        "source" : "12594",
+        "target" : "12726",
+        "shared_name" : "hsa-miR-181a-5p (interacts with) PTPN22",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-181a-5p (interacts with) PTPN22",
+        "interaction" : "interacts with",
+        "data_key_column" : 12801,
+        "SUID" : 12801,
+        "source_original" : "hsa-miR-181a-5p",
+        "selected" : false,
+        "target_original" : "PTPN22"
+      }
+    }, {
+      "data" : {
+        "id" : "13221",
+        "source" : "12591",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-1256 (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-1256 (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13221,
+        "SUID" : 13221,
+        "source_original" : "hsa-miR-1256",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12795",
+        "source" : "12591",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-1256 (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-1256 (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12795,
+        "SUID" : 12795,
+        "source_original" : "hsa-miR-1256",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13218",
+        "source" : "12588",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-155-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-155-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13218,
+        "SUID" : 13218,
+        "source_original" : "hsa-miR-155-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13143",
+        "source" : "12588",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-155-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-155-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13143,
+        "SUID" : 13143,
+        "source_original" : "hsa-miR-155-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "13107",
+        "source" : "12588",
+        "target" : "12744",
+        "shared_name" : "hsa-miR-155-5p (interacts with) CD4",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-155-5p (interacts with) CD4",
+        "interaction" : "interacts with",
+        "data_key_column" : 13107,
+        "SUID" : 13107,
+        "source_original" : "hsa-miR-155-5p",
+        "selected" : false,
+        "target_original" : "CD4"
+      }
+    }, {
+      "data" : {
+        "id" : "13002",
+        "source" : "12588",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-155-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-155-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13002,
+        "SUID" : 13002,
+        "source_original" : "hsa-miR-155-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12792",
+        "source" : "12588",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-155-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-155-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12792,
+        "SUID" : 12792,
+        "source_original" : "hsa-miR-155-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13212",
+        "source" : "12585",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-31-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-31-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13212,
+        "SUID" : 13212,
+        "source_original" : "hsa-miR-31-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12786",
+        "source" : "12585",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-31-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-31-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12786,
+        "SUID" : 12786,
+        "source_original" : "hsa-miR-31-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13206",
+        "source" : "12582",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-222-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-222-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13206,
+        "SUID" : 13206,
+        "source_original" : "hsa-miR-222-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12783",
+        "source" : "12582",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-222-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-222-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12783,
+        "SUID" : 12783,
+        "source_original" : "hsa-miR-222-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13209",
+        "source" : "12579",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-221-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-221-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13209,
+        "SUID" : 13209,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13203",
+        "source" : "12579",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2166ac",
+        "name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13203,
+        "SUID" : 13203,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13176",
+        "source" : "12579",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-221-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2166ac",
+        "name" : "hsa-miR-221-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 13176,
+        "SUID" : 13176,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "13173",
+        "source" : "12579",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13173,
+        "SUID" : 13173,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12909",
+        "source" : "12579",
+        "target" : "12723",
+        "shared_name" : "hsa-miR-221-3p (interacts with) NAIP",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-221-3p (interacts with) NAIP",
+        "interaction" : "interacts with",
+        "data_key_column" : 12909,
+        "SUID" : 12909,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "NAIP"
+      }
+    }, {
+      "data" : {
+        "id" : "12906",
+        "source" : "12579",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12906,
+        "SUID" : 12906,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12780",
+        "source" : "12579",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-221-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12780,
+        "SUID" : 12780,
+        "source_original" : "hsa-miR-221-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13200",
+        "source" : "12576",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2166ac",
+        "name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13200,
+        "SUID" : 13200,
+        "source_original" : "hsa-miR-17-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13170",
+        "source" : "12576",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13170,
+        "SUID" : 13170,
+        "source_original" : "hsa-miR-17-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12999",
+        "source" : "12576",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12999,
+        "SUID" : 12999,
+        "source_original" : "hsa-miR-17-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12903",
+        "source" : "12576",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-17-3p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12903,
+        "SUID" : 12903,
+        "source_original" : "hsa-miR-17-3p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13197",
+        "source" : "12573",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-33a-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2166ac",
+        "name" : "hsa-miR-33a-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13197,
+        "SUID" : 13197,
+        "source_original" : "hsa-miR-33a-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13167",
+        "source" : "12573",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-33a-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-33a-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13167,
+        "SUID" : 13167,
+        "source_original" : "hsa-miR-33a-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12777",
+        "source" : "12573",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-33a-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-33a-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12777,
+        "SUID" : 12777,
+        "source_original" : "hsa-miR-33a-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13194",
+        "source" : "12570",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-33b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2166ac",
+        "name" : "hsa-miR-33b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13194,
+        "SUID" : 13194,
+        "source_original" : "hsa-miR-33b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13164",
+        "source" : "12570",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-33b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-33b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13164,
+        "SUID" : 13164,
+        "source_original" : "hsa-miR-33b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "12774",
+        "source" : "12570",
+        "target" : "12717",
+        "shared_name" : "hsa-miR-33b-5p (interacts with) ABCA1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-33b-5p (interacts with) ABCA1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12774,
+        "SUID" : 12774,
+        "source_original" : "hsa-miR-33b-5p",
+        "selected" : false,
+        "target_original" : "ABCA1"
+      }
+    }, {
+      "data" : {
+        "id" : "13305",
+        "source" : "12567",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13305,
+        "SUID" : 13305,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13224",
+        "source" : "12567",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13224,
+        "SUID" : 13224,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13191",
+        "source" : "12567",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 13191,
+        "SUID" : 13191,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13155",
+        "source" : "12567",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff4500",
+        "name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13155,
+        "SUID" : 13155,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13125",
+        "source" : "12567",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13125,
+        "SUID" : 13125,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13122",
+        "source" : "12567",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 13122,
+        "SUID" : 13122,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13068",
+        "source" : "12567",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 13068,
+        "SUID" : 13068,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "13005",
+        "source" : "12567",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#b3d7e8",
+        "name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13005,
+        "SUID" : 13005,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12957",
+        "source" : "12567",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2e8b57",
+        "name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 12957,
+        "SUID" : 12957,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12900",
+        "source" : "12567",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 12900,
+        "SUID" : 12900,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "12861",
+        "source" : "12567",
+        "target" : "12732",
+        "shared_name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#ff69b4",
+        "name" : "hsa-miR-21-5p (interacts with) CCR7",
+        "interaction" : "interacts with",
+        "data_key_column" : 12861,
+        "SUID" : 12861,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "CCR7"
+      }
+    }, {
+      "data" : {
+        "id" : "12798",
+        "source" : "12567",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-21-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12798,
+        "SUID" : 12798,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12771",
+        "source" : "12567",
+        "target" : "12714",
+        "shared_name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-21-5p (interacts with) TGFBI",
+        "interaction" : "interacts with",
+        "data_key_column" : 12771,
+        "SUID" : 12771,
+        "source_original" : "hsa-miR-21-5p",
+        "selected" : false,
+        "target_original" : "TGFBI"
+      }
+    }, {
+      "data" : {
+        "id" : "13215",
+        "source" : "12561",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-17-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-17-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13215,
+        "SUID" : 13215,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "13188",
+        "source" : "12561",
+        "target" : "12711",
+        "shared_name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#264653",
+        "name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13188,
+        "SUID" : 13188,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "NABP1"
+      }
+    }, {
+      "data" : {
+        "id" : "13179",
+        "source" : "12561",
+        "target" : "12711",
+        "shared_name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2166ac",
+        "name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13179,
+        "SUID" : 13179,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "NABP1"
+      }
+    }, {
+      "data" : {
+        "id" : "13161",
+        "source" : "12561",
+        "target" : "12711",
+        "shared_name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#2e8b57",
+        "name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13161,
+        "SUID" : 13161,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "NABP1"
+      }
+    }, {
+      "data" : {
+        "id" : "13149",
+        "source" : "12561",
+        "target" : "12711",
+        "shared_name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#67001f",
+        "name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 13149,
+        "SUID" : 13149,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "NABP1"
+      }
+    }, {
+      "data" : {
+        "id" : "12789",
+        "source" : "12561",
+        "target" : "12720",
+        "shared_name" : "hsa-miR-17-5p (interacts with) ICAM1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-17-5p (interacts with) ICAM1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12789,
+        "SUID" : 12789,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "ICAM1"
+      }
+    }, {
+      "data" : {
+        "id" : "12762",
+        "source" : "12561",
+        "target" : "12711",
+        "shared_name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "shared_interaction" : "interacts with",
+        "edge_color" : "#9966cc",
+        "name" : "hsa-miR-17-5p (interacts with) NABP1",
+        "interaction" : "interacts with",
+        "data_key_column" : 12762,
+        "SUID" : 12762,
+        "source_original" : "hsa-miR-17-5p",
+        "selected" : false,
+        "target_original" : "NABP1"
+      }
+    } ]
+  }
+}
