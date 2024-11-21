@@ -159,52 +159,52 @@
         function cacheLayouts(cy) {
             cachedLayoutCircle = cy.layout({
                 name: 'concentric',
-                concentric: node => {
-                    if (node.data('type') === 'gene') {
-                        return 10; // 基因节点固定在中心
-                    } else if (node.degree() === 1) {
-                        // degree=1 的节点随机分到 1~4 的圈层
-                        return Math.random() * 4 + 1;
-                    } else {
-                        return node.degree(); // 其他节点根据度数分层
-                    }
+                // concentric: node => {
+                //     if (node.data('type') === 'gene') {
+                //         return 10; // 基因节点固定在中心
+                //     } else if (node.degree() === 1) {
+                //         // degree=1 的节点随机分到 1~4 的圈层
+                //         return Math.random() * 4 + 1;
+                //     } else {
+                //         return node.degree(); // 其他节点根据度数分层
+                //     }
 
-                },
-                concentric: node => (node.data('type') === 'gene' ? 10 : node.degree()),
-                levelWidth:()=>3,
-                spacingFactor: 1.2,
-                animate: true
+                // },
                 // concentric: node => (node.data('type') === 'gene' ? 10 : node.degree()),
                 // levelWidth:()=>3,
                 // spacingFactor: 1.2,
                 // animate: true
+                concentric: node => (node.data('type') === 'gene' ? 10 : node.degree()),
+                levelWidth:()=>3,
+                spacingFactor: 1.2,
+                animate: true
 
             });
 
             cachedLayoutNetwork = cy.layout({
 
                 name: 'fcose',
-                nodeRepulsion: node => {
-                    // 基因节点增加排斥力
-                    return node.data('type') === 'gene' ? 30000 : 8000;
-                },
-                idealEdgeLength: edge => {
-                    // 增加基因相关边的长度
-                    if (edge.source().data('type') === 'gene' || edge.target().data('type') === 'gene') {
-                        return 150; // 基因相关边更长
-                    }
-                    return 50; // 其他边保持默认
-                },
-                gravity: 0.05,
-                nodeSeperation:50,
-                fit: true,
-                animate: false
-                // nodeRepulsion: 1000,
-                // idealEdgeLength: 20,
-                // gravity:0.5,
-                // nodeSeperation:20,
+                // nodeRepulsion: node => {
+                //     // 基因节点增加排斥力
+                //     return node.data('type') === 'gene' ? 30000 : 8000;
+                // },
+                // idealEdgeLength: edge => {
+                //     // 增加基因相关边的长度
+                //     if (edge.source().data('type') === 'gene' || edge.target().data('type') === 'gene') {
+                //         return 150; // 基因相关边更长
+                //     }
+                //     return 50; // 其他边保持默认
+                // },
+                // gravity: 0.05,
+                // nodeSeperation:50,
                 // fit: true,
-                // animate: true
+                // animate: false
+                nodeRepulsion: 1000,
+                idealEdgeLength: 20,
+                gravity:0.5,
+                nodeSeperation:20,
+                fit: true,
+                animate: true
             });
 
             // Precompute the layouts
